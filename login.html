@@ -1,47 +1,55 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Login Page</title>
+	<title>BookYourShow Login</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<form name="loginForm" method="post" action="login.php">
-<table width="20%" bgcolor="0099CC" align="center">
+	<header id="main-header">
+		<div class="container">
+			<h1>BookYourShow</h1>
+		</div>
+	</header>
 
-<tr>
-<td colspan=2><center><font size=4><b>MovieBooking Login Page</b></font></center></td>
-</tr>
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 
-<tr>
-<td>Username:</td>
-<td><input type="text" size=25 name="userid"></td>
-</tr>
+	<div class="container">
+		<center>
+			<section id="f1">
+				<h2>Login</h2>
+				<form id="my-form">
+					<div class="form-group">
+						<label>Username:</label>
+						<input type="text" name="usr" placeholder="Enter username">				
+					</div>
 
-<tr>
-<td>Password:</td>
-<td><input type="Password" size=25 name="pwd"></td>
-</tr>
+					<div class="form-group">
+						<label>Password :</label>
+						<input  paddingtype="text" name="pwd" placeholder="Enter password">				
+					</div>	
+					<input type="reset" name="">
 
-<tr>
-<td ><input type="Reset"></td>
-<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
-</tr>
+					<button class="button">
+						<a href="#">Login</a>
+					</button>			
+						
+				</form>
+			</section>
+		</center>
+	</div>
 
-</table>
-</form>
-<script language="javascript">
-function check(form)
-{
-
-if(form.userid.value == "MovieBooking" && form.pwd.value == "1234")
-{
-	return true;
-}
-else
-{
-	alert("Error Password or Username")
-	return false;
-}
-}
-</script>
+	<footer id="main-footer">
+		<p>Copyright &copy; 2019 BookYourShow</p>
+		
+	</footer>
 
 </body>
 </html>
