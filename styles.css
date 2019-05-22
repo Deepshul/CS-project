@@ -1,9 +1,9 @@
 body{
-	background-color: #99ffff;
+	background-color: lightgrey;
 	color:black;
-	font-family: verdana;
-	font-size:16px;
-	line-height:1.6em;
+	font-family: sans-serif;
+	font-size:15px;
+	line-height:1.5em;
 	margin:0;
 }
 
@@ -14,26 +14,30 @@ body{
 }
 
 
-.button:hover{
+button:hover{
 	background-color: red;
 	color:black;
+}
+
+
+#main-header{
+	background-color:lightgrey;
+	color:black;
+	height: 120px;
+	padding-bottom: 10px;
 }
 
 #main-header h1{
 	font-size: 80px;
 	margin-left: 0;
 	color: red;
-}
-#main-header{
-	background-color:#9fffff;
-	color:black;
-	height: 120px;
+	padding-bottom: 10px;
 }
 
 #navbar{
 	background-color:#333;
 	color:#fff;
-	padding-left: 7px;
+	padding-left: 0 px;
 }
 
 
@@ -58,12 +62,22 @@ body{
 	height: 10%;
 	box-sizing: border-box;
 	background-image: url('../images/f1.jpg');
+	color:black;
+}
+
+#f1 label{
+	color: black;
+	font-size: 16px;
+}
+
+#f1 input{
+	text-align: center;
 }
 
 h2{
 	font-size: 25px;
 	margin-left: 0;
-	color: grey
+	color: black;
 
 }
 
@@ -71,7 +85,8 @@ h2{
 #my-form{
 	padding-top: 40px;
 	padding-bottom: 106px;
-	background-image: url('../images/f1.jpg');
+	background-image: url("../images/f1.jpg");
+	color: black;
 }
 
 
