@@ -4,7 +4,11 @@
 	<title>BookYourShow Login</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="materialize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="materialize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
 <body>
 	<header id="main-header">
@@ -15,7 +19,7 @@
 
 	<nav id="navbar">
 		<div class="container">
-			<ul>
+			<ul class="hide">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact</a></li>
@@ -38,12 +42,11 @@
 						<label>Password :</label>
 						<input  paddingtype="text" name="pwd" placeholder="Enter password">				
 					</div>	
-					<input type="reset" name="">
+					<input type="reset" name="" class="btn red darken-2">
 
-					<button class="button waves-effect">
-						<a href="#">Login</a>
-					</button>			
-						
+					<button class="btn red darken-2 waves-effect">
+						Login
+					</button>						
 				</form>
 			</section>
 		</center>
