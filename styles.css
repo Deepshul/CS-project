@@ -14,11 +14,6 @@ body{
 }
 
 
-button:hover{
-	background-color: red;
-	color:black;
-}
-
 
 #main-header{
 	background-color:lightgrey;
@@ -94,6 +89,12 @@ h2{
 	padding-bottom: 15px;
 }
 
+a{
+	lighting-color: white;
+	color: white;
+	color-rendering: white;
+	outline-color: white;
+}
 
 #main-footer{
 	background: #333;
