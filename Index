@@ -20,29 +20,110 @@
         <center><a href="" class="dropdown-button btn red darken-3" data-activates="dropdown1">Pick Your Movie</a>
         <!-- Dropdown Structure -->
         <ul id='dropdown1' class='dropdown-content'>
-          <li><a href="#!" class="red-text">Avengers Endgame</a></li>
-          <li><a href="#!" class="red-text">Captain America: Winter Soldier</a></li>
-	  <li><a href="#!" class="red-text">Dr. Strange</a></li>
-	  <li><a href="#!" class="red-text">Inception</a></li>
-	  <li><a href="#!" class="red-text">Avengers Infinity war</a></li>
+          <li><a href="#!" class="red-text">Iron Man</a></li>
+          <li><a href="#!" class="red-text">The Incredible Hulk</a></li>
+	        <li><a href="#!" class="red-text">Iron Man 2</a></li>
+	        <li><a href="#!" class="red-text">Thor</a></li>
+          <li><a href="#!" class="red-text">Captain America:The First Avenger</a></li>
+          <li><a href="#!" class="red-text">The Avengers</a></li>
+          <li><a href="#!" class="red-text">Iron Man 3</a></li>
+          <li><a href="#!" class="red-text">Thor:The Dark World</a></li>
+          <li><a href="#!" class="red-text">Captain America:The Winter Soldier</a></li>
+          <li><a href="#!" class="red-text">Guardians Of The Galaxy</a></li>
+          <li><a href="#!" class="red-text">Avengers:Age Of Ultron</a></li>
+          <li><a href="#!" class="red-text">Ant-Man</a></li>
+          <li><a href="#!" class="red-text">Captain America:Civil War</a></li>
+          <li><a href="#!" class="red-text">Doctor Strange</a></li>
+          <li><a href="#!" class="red-text">Guardians Of The Galaxy Vol.2</a></li>
+          <li><a href="#!" class="red-text">Spiderman:Homecoming</a></li>
+          <li><a href="#!" class="red-text">Thor:Ragnarok</a></li>
+          <li><a href="#!" class="red-text">Black Panther</a></li>
+          <li><a href="#!" class="red-text">Avengers:Infinity war</a></li>
+          <li><a href="#!" class="red-text">Ant-Man and The Wasp</a></li>
+          <li><a href="#!" class="red-text">Captain Marvel</a></li>
+          <li><a href="#!" class="red-text">Avengers:Endgame</a></li>
+          <li><a href="#!" class="red-text">Titanic</a></li>
+          <li><a href="#!" class="red-text">Inception</a></li>
         </ul></center>
-        <center><div class="carousel carousel-slider" style="width:800px; height:200px;">
-          <a href="#one!" class="carousel-item">
-            <img src="endgame.jpeg" alt="">
+        <center><div class="carousel carousel-slider" style="width:700px; height:150px;">
+          <a href="#" class="carousel-item">
+            <img src=".\images\endgame.jpg" alt="">
           </a>
-          <a href="#two!" class="carousel-item">
-            <img src="wintersoldier.jpg" alt="">
+          <a href="#" class="carousel-item">
+            <img src=".\images\wintersoldier.jpg" alt="">
           </a>
-          <a href="#three!" class="carousel-item">
-            <img src="dr.jpeg" alt="">
+          <a href="#" class="carousel-item">
+            <img src=".\images\dr.jpeg" alt="">
           </a>
-          <a href="#four!" class="carousel-item">
-            <img src="inception.jpg" alt="">
+          <a href="#" class="carousel-item">
+            <img src=".\images\kgf.jpg" alt="">
           </a>
-	<a href="#four!" class="carousel-item">
-            <img src="inf.jpg" alt="">
+          <a href="#" class="carousel-item">
+            <img src=".\images\inception.jpg" alt="">
           </a>
-          
+	        <a href="#" class="carousel-item">
+            <img src=".\images\inf.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\antman.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\ff8.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\avengers.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\cap.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\gotg2.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\hulk.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\civilwar.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\gotg.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\ironman1.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\ironman2.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\ironman3.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\sm.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\thor.png" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\thor2.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\thor3.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\ultron.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\bp.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\antman2.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\cm.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\titanic.jpg" alt="">
+          </a>
         </div></center>
 	<!-- TAP TARGET -->
         <center><div class="fixed-action-btn " style="bottom:45px;right:24px">
@@ -81,7 +162,7 @@
 autoplay();
 function autoplay() {
     $('.carousel').carousel('next');
-    setTimeout(autoplay, 3500);
+    setTimeout(autoplay, 2500);
 }
 
           // Init Carousel Slider
@@ -100,6 +181,8 @@ function autoplay() {
 
           // Init Sidenav
           $('.button-collapse').sideNav();
+
+          
         });
       </script>
     </body>
