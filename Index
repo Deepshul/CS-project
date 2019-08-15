@@ -15,12 +15,12 @@
  
 
         <!-- CAROUSEL FULL SLIDER -->
-        <center><h1>MOVIES</h1></center>
+        <center><h1 style="color:whitesmoke;">MOVIES</h1></center>
 	<!-- DROPDOWN -->
-        <center><a href="" class="dropdown-button btn red darken-3" data-activates="dropdown1">Pick Your Movie</a>
+        <center><a href="#" class="dropdown-button btn red darken-3" data-activates="dropdown1">Pick Your Movie</a>
         <!-- Dropdown Structure -->
         <ul id='dropdown1' class='dropdown-content'>
-          <li><a href="#!" class="red-text">Iron Man</a></li>
+          <li><a href="#!" class="red-text hover-nav-finance">Iron Man</a></li>
           <li><a href="#!" class="red-text">The Incredible Hulk</a></li>
 	        <li><a href="#!" class="red-text">Iron Man 2</a></li>
 	        <li><a href="#!" class="red-text">Thor</a></li>
@@ -45,7 +45,8 @@
           <li><a href="#!" class="red-text">Titanic</a></li>
           <li><a href="#!" class="red-text">Inception</a></li>
         </ul></center>
-        <center><div class="carousel carousel-slider" style="width:700px; height:150px;">
+      
+        <center><div class="carousel carousel-slider " style="width:700px; height:150px;">
           <a href="#" class="carousel-item">
             <img src=".\images\endgame.jpg" alt="">
           </a>
@@ -135,9 +136,9 @@
         <a onclick="$('.tap-target').tapTarget('open')" class="waves-effect waves-light btn red darken-3">Contact Info</a>
 	<!-- TAP TARGET CONTENT -->
         <div class="tap-target red darken-3" data-activates="menu">
-          <div class="tap-target-content white-text red darken-3">
+          <div class="tap-target-content white-text">
             <h5>Contact</h5>
-            <p class="white-text">Contact us at SKCH</p>
+            <p class="white-text">Contact Amog and Deepshul at SKCH CBSE</p>
           </div>
         </div>
         
@@ -155,19 +156,29 @@
       <script>
         $(document).ready(function(){
           // Init Carousel
-          $('.carousel').carousel({
-    padding: 500
-       
-});
-autoplay();
-function autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(autoplay, 2500);
-}
+          $('.carousel').carousel({padding: 500});
+          autoplay();
+          function autoplay() {
+          $('.carousel').carousel('next');
+          setTimeout(autoplay, 4000);
+          
+          }
+          $('.carousel.carousel-slider').carousel({fullWidth:true});
 
           // Init Carousel Slider
-          $('.carousel.carousel-slider').carousel({fullWidth:true});
- 
+         
+          //Template.myTemplate.onRendered(function() {
+          $('.dropdown-button').dropdown({
+          inDuration: 300,
+          outDuration: 225,
+          constrain_width: false, // Does not change width of dropdown to that of the activator
+          hover: true, // Activate on hover
+          gutter: 0, // Spacing from edge
+          belowOrigin: false, // Displays dropdown below the button
+          alignment: 'left' // Displays dropdown with edge aligned to the left of button
+        }
+          );
+//}
 
           // Fire off toast
           //Materialize.toast('Hello World', 3000);
@@ -182,8 +193,9 @@ function autoplay() {
           // Init Sidenav
           $('.button-collapse').sideNav();
 
-          
         });
-      </script>
-    </body>
-  </html>
+         
+    </script>
+    <script src="t.js "></script>
+  </body>
+</html>
