@@ -16,34 +16,41 @@
 
         <!-- CAROUSEL FULL SLIDER -->
         <center><h1>MOVIES</h1></center>
+         
+
+
+
+
+
 	<!-- DROPDOWN -->
-        <center><a href="" class="dropdown-button btn red darken-3" data-activates="dropdown1">Pick Your Movie</a>
+        <center><a href="#5" class="button btn red darken-3">Pick Your Movie</a>
         <!-- Dropdown Structure -->
-        <ul id='dropdown1' class='dropdown-content'>
-          <li><a href="#!" class="red-text">Iron Man</a></li>
-          <li><a href="#!" class="red-text">The Incredible Hulk</a></li>
-	        <li><a href="#!" class="red-text">Iron Man 2</a></li>
-	        <li><a href="#!" class="red-text">Thor</a></li>
-          <li><a href="#!" class="red-text">Captain America:The First Avenger</a></li>
-          <li><a href="#!" class="red-text">The Avengers</a></li>
-          <li><a href="#!" class="red-text">Iron Man 3</a></li>
-          <li><a href="#!" class="red-text">Thor:The Dark World</a></li>
-          <li><a href="#!" class="red-text">Captain America:The Winter Soldier</a></li>
-          <li><a href="#!" class="red-text">Guardians Of The Galaxy</a></li>
-          <li><a href="#!" class="red-text">Avengers:Age Of Ultron</a></li>
-          <li><a href="#!" class="red-text">Ant-Man</a></li>
-          <li><a href="#!" class="red-text">Captain America:Civil War</a></li>
-          <li><a href="#!" class="red-text">Doctor Strange</a></li>
-          <li><a href="#!" class="red-text">Guardians Of The Galaxy Vol.2</a></li>
-          <li><a href="#!" class="red-text">Spiderman:Homecoming</a></li>
-          <li><a href="#!" class="red-text">Thor:Ragnarok</a></li>
-          <li><a href="#!" class="red-text">Black Panther</a></li>
-          <li><a href="#!" class="red-text">Avengers:Infinity war</a></li>
-          <li><a href="#!" class="red-text">Ant-Man and The Wasp</a></li>
-          <li><a href="#!" class="red-text">Captain Marvel</a></li>
-          <li><a href="#!" class="red-text">Avengers:Endgame</a></li>
-          <li><a href="#!" class="red-text">Titanic</a></li>
-          <li><a href="#!" class="red-text">Inception</a></li>
+        <!--<ul id='dropdown1' class='dropdown-content'>-->
+          <!--<li><a href="#1" class="red-text">Iron Man</a></li>
+          <li><a href="#2" class="red-text">The Incredible Hulk</a></li>
+	        <li><a href="#3" class="red-text">Iron Man 2</a></li>
+	        <li><a href="#4" class="red-text">Thor</a></li>
+          <li><a href="#5" class="red-text">Captain America:The First Avenger</a></li>
+          <li><a href="#6" class="red-text">The Avengers</a></li>
+          <li><a href="#7" class="red-text">Iron Man 3</a></li>
+          <li><a href="#8" class="red-text">Thor:The Dark World</a></li>
+          <li><a href="#9" class="red-text">Captain America:The Winter Soldier</a></li>
+          <li><a href="#10" class="red-text">Guardians Of The Galaxy</a></li>
+          <li><a href="#11" class="red-text">Avengers:Age Of Ultron</a></li>
+          <li><a href="#12" class="red-text">Ant-Man</a></li>
+          <li><a href="#13" class="red-text">Captain America:Civil War</a></li>
+          <li><a href="#14" class="red-text">Doctor Strange</a></li>
+          <li><a href="#15" class="red-text">Guardians Of The Galaxy Vol.2</a></li>
+          <li><a href="#16" class="red-text">Spiderman:Homecoming</a></li>
+          <li><a href="#17" class="red-text">Thor:Ragnarok</a></li>
+          <li><a href="#18" class="red-text">Black Panther</a></li>
+          <li><a href="#19" class="red-text">Avengers:Infinity war</a></li>
+          <li><a href="#20" class="red-text">Ant-Man and The Wasp</a></li>
+          <li><a href="#21" class="red-text">Captain Marvel</a></li>
+          <li><a href="#22" class="red-text">Avengers:Endgame</a></li>
+          <li><a href="#23" class="red-text">Titanic</a></li>
+          <li><a href="#24" class="red-text">Inception</a></li>-->
+          
         </ul></center>
         <center><div class="carousel carousel-slider" style="width:700px; height:150px;">
           <a href="#" class="carousel-item">
@@ -51,6 +58,12 @@
           </a>
           <a href="#" class="carousel-item">
             <img src=".\images\wintersoldier.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\joker.jpg" alt="">
+          </a>
+          <a href="#" class="carousel-item">
+            <img src=".\images\interstellar.jpg" alt="">
           </a>
           <a href="#" class="carousel-item">
             <img src=".\images\dr.jpeg" alt="">
@@ -125,6 +138,210 @@
             <img src=".\images\titanic.jpg" alt="">
           </a>
         </div></center>
+        <div style="height:100px"></div>
+
+
+        <!-- COLLAPSIBLE -->
+        <h2 class="red-text"></h2>
+        <ul class="collapsible black white-text" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="1">
+              <i class="material-icons">movie</i>Iron Man
+            </div>
+            <div class="collapsible-body">
+                <input id="choice_1" name="group1" type="radio" checked/>   
+                <label for="choice_1">Red</label>
+                
+                <input id="choice_2" name="group1" type="radio" />  
+                <label for="choice_2">Yellow</label>
+                    
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="2">
+              <i class="material-icons">movie</i>Incredible Hulk
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="3">
+              <i class="material-icons">movie</i>Iron Man 2
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="4">
+              <i class="material-icons">movie</i>Thor
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="5">
+              <i class="material-icons">movie</i>Captain America:The First Avenger
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="6">
+              <i class="material-icons">movie</i>The Avengers
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="7">
+              <i class="material-icons">movie</i>Iron Man 3
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="8">
+              <i class="material-icons">movie</i>Thor:The Dark World
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="9">
+              <i class="material-icons">movie</i>Captain America:The Winter Soldier
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="10">
+              <i class="material-icons">movie</i>Guardians Of The Galaxy
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="11">
+              <i class="material-icons">movie</i>Avengers:Age Of Ultron
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="12">
+              <i class="material-icons">movie</i>Ant-Man
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="13">
+              <i class="material-icons">movie</i>Captain America:Civil War
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="14">
+              <i class="material-icons">movie</i>Doctor Strange
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="15">
+              <i class="material-icons">movie</i>Guardians Of The Galaxy Vol.2
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="16">
+              <i class="material-icons">movie</i>Spiderman:Homecoming
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="17">
+              <i class="material-icons">movie</i>Thor:Ragnarok
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="18">
+              <i class="material-icons">movie</i>Black Panther
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="19">
+              <i class="material-icons">movie</i>Avengers:Infinity war
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="20">
+              <i class="material-icons">movie</i>Ant-Man and The Wasp
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="21">
+              <i class="material-icons">movie</i>Captain Marvel
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="22">
+              <i class="material-icons">movie</i>Avengers:Endgame
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="23">
+              <i class="material-icons">movie</i>Titanic
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header red darken-3 section scrollspy" id="24">
+              <i class="material-icons">movie</i>Inception
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+            </div>
+          </li>
+        </ul>
 	<!-- TAP TARGET -->
         <center><div class="fixed-action-btn " style="bottom:45px;right:24px">
           <a id="menu" onclick="$('.tap-target').tapTarget('open')" class="waves-effect waves-light btn btn-floating btn-large cyan">
@@ -167,7 +384,27 @@ function autoplay() {
 
           // Init Carousel Slider
           $('.carousel.carousel-slider').carousel({fullWidth:true});
- 
+
+
+          $('.dropdown-button').dropdown({
+          inDuration: 300,
+          outDuration: 225,
+          constrain_width: false, // Does not change width of dropdown to that of the activator
+          hover: true, // Activate on hover
+          gutter: 0, // Spacing from edge
+          belowOrigin: false, // Displays dropdown below the button
+          alignment: 'left', // Displays dropdown with edge aligned to the left of button
+          closeOnClick:true
+        }
+      );
+
+      $('.scrollspy').scrollSpy();
+
+      $('.collapsible').collapsible();
+  
+      //$('.modal').modal({overflow:visible});
+   
+  
 
           // Fire off toast
           //Materialize.toast('Hello World', 3000);
