@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+{%load static%}
 <html>
 <head>
 	<title>BookYourShow Login</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="materialize.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="materialize.min.css">
+	<link href="{%static "BYS/css/materialize.css"%}" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="{%static "BYS/css/styles.css"%}" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="{%static "BYS/css/materialize.min.css"%}" type="text/css" rel="stylesheet" media="screen,projection">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	
@@ -28,26 +29,28 @@
 
 		</div>
 	</nav>
-
-	<div class="container">
+	
+	<!--<div class="container" style="background-image: url("{%static "BYS/images/bg.jpg"%}");">-->
 		<center>
 			<section id="f1">
 				<h2>Login</h2>
-				<form id="my-form">
+				<form id="my-form" action="#" method="POST">
+						{%csrf_token%}
 					<div class="form-group">
 						<label>Username:</label>
-						<input type="text" name="usr" placeholder="Enter username">				
+						<input type="text" id="username" name="username" placeholder="Enter username">				
 					</div>
 
 					<div class="form-group">
 						<label>Password :</label>
-						<input  paddingtype="text" name="pwd" placeholder="Enter password">				
-					</div>	
-					<input type="reset" name="" class="btn red darken-2">
-
-					<button class="btn red darken-2 waves-effect">
-						<a href="index.html">Login</a>
-					</button>						
+						<input  paddingtype="text" id="password" name="password" placeholder="Enter password">				
+					</div>
+					<select name="choice">
+							<option>ggg</option>
+							<option>fff</option>
+					</select>	
+					<input class="btn waves-effect waves-light red darken-3" type="Submit" name="login" value="Submit">	
+            		<input type="reset" name="Cancel" value="Cancel" class="btn waves-effect waves-light red darken-3">						
 				</form>
 			</section>
 		</center>
