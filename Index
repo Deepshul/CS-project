@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{%load static%}
   <html>
     <head>
       <title>HOME</title>	
@@ -6,163 +7,266 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <link href="{%static "BYS/css/materialize.css"%}" type="text/css" rel="stylesheet" media="screen,projection">
+       <link href="{%static "BYS/css/styles.css"%}" type="text/css" rel="stylesheet" media="screen,projection">
+
+        
+	<link rel="stylesheet" type="text/css" href="{%static "BYS/css/styles.css"%}">
     </head>
-    <body>      
+    <body style="background-color: black">      
 
  
 
-        <!-- CAROUSEL FULL SLIDER -->
+        
         <center><h1>MOVIES</h1></center>
-         
+
+
+    
+        <center><a href="#2" class="button btn red darken-3">Pick Your Movie</a>
 
 
 
+          <div style="height:40px"></div>
 
+          <div class="slider white-text">
+            <ul class="slides">
+              <li>
+                <img src="{%static "BYS/images/endgame.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Avengers: Endgame</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/ironman1.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Iron Man</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/hulk.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>The Incredible Hulk</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/ironman2.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Iron Man 2</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/thor.png"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Thor</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/cap.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Captain America: The First Avenger</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/avengers.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>The Avengers</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/ironman3.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Iron Man 3</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/thor2.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Thor: The Dark World</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/wintersoldier.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Captain America: The Winter Soldier</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/gotg.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Guardians of The Galaxy</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/ultron.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Avengers: Age of Ultron</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/antman.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Ant-Man</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/civilwar.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Captain America: Civil War</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/doctor.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Doctor Strange</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/gotg2.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Guardians of The Galaxy Vol.2</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/sm.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Spiderman: Homecoming</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/thor3.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Thor: Ragnarok</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/bp.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Black Panther</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/inf.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Avengers: Infinity War</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/antman2.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Ant-Man and The Wasp</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/cm.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Captain Marvel</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/endgame.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Avengers: Endgame</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/ff8.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Fate of The Furious</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/kgf.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>K.G.F</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/titanic.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Titanic</h3>
+        
+                </div>
+              </li>
+              <li>
+                <img src="{% static "BYS/images/inception.jpg"%}"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Inception</h3>
+        
+                </div>
+              </li>
+            </ul>
+          </div>
 
-	<!-- DROPDOWN -->
-        <center><a href="#5" class="button btn red darken-3">Pick Your Movie</a>
-        <!-- Dropdown Structure -->
-        <!--<ul id='dropdown1' class='dropdown-content'>-->
-          <!--<li><a href="#1" class="red-text">Iron Man</a></li>
-          <li><a href="#2" class="red-text">The Incredible Hulk</a></li>
-	        <li><a href="#3" class="red-text">Iron Man 2</a></li>
-	        <li><a href="#4" class="red-text">Thor</a></li>
-          <li><a href="#5" class="red-text">Captain America:The First Avenger</a></li>
-          <li><a href="#6" class="red-text">The Avengers</a></li>
-          <li><a href="#7" class="red-text">Iron Man 3</a></li>
-          <li><a href="#8" class="red-text">Thor:The Dark World</a></li>
-          <li><a href="#9" class="red-text">Captain America:The Winter Soldier</a></li>
-          <li><a href="#10" class="red-text">Guardians Of The Galaxy</a></li>
-          <li><a href="#11" class="red-text">Avengers:Age Of Ultron</a></li>
-          <li><a href="#12" class="red-text">Ant-Man</a></li>
-          <li><a href="#13" class="red-text">Captain America:Civil War</a></li>
-          <li><a href="#14" class="red-text">Doctor Strange</a></li>
-          <li><a href="#15" class="red-text">Guardians Of The Galaxy Vol.2</a></li>
-          <li><a href="#16" class="red-text">Spiderman:Homecoming</a></li>
-          <li><a href="#17" class="red-text">Thor:Ragnarok</a></li>
-          <li><a href="#18" class="red-text">Black Panther</a></li>
-          <li><a href="#19" class="red-text">Avengers:Infinity war</a></li>
-          <li><a href="#20" class="red-text">Ant-Man and The Wasp</a></li>
-          <li><a href="#21" class="red-text">Captain Marvel</a></li>
-          <li><a href="#22" class="red-text">Avengers:Endgame</a></li>
-          <li><a href="#23" class="red-text">Titanic</a></li>
-          <li><a href="#24" class="red-text">Inception</a></li>-->
-          
-        </ul></center>
-        <center><div class="carousel carousel-slider" style="width:700px; height:150px;">
-          <a href="#" class="carousel-item">
-            <img src=".\images\endgame.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\wintersoldier.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\joker.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\interstellar.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\dr.jpeg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\kgf.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\inception.jpg" alt="">
-          </a>
-	        <a href="#" class="carousel-item">
-            <img src=".\images\inf.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\antman.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\ff8.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\avengers.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\cap.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\gotg2.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\hulk.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\civilwar.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\gotg.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\ironman1.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\ironman2.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\ironman3.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\sm.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\thor.png" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\thor2.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\thor3.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\ultron.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\bp.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\antman2.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\cm.jpg" alt="">
-          </a>
-          <a href="#" class="carousel-item">
-            <img src=".\images\titanic.jpg" alt="">
-          </a>
-        </div></center>
         <div style="height:100px"></div>
 
+        
+        
 
+        
         <!-- COLLAPSIBLE -->
         <h2 class="red-text"></h2>
-        <ul class="collapsible black white-text" data-collapsible="accordion">
+        <ul class="collapsible black-text black" data-collapsible="accordion">
+          
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="1">
               <i class="material-icons">movie</i>Iron Man
             </div>
-            <div class="collapsible-body">
-                <input id="choice_1" name="group1" type="radio" checked/>   
-                <label for="choice_1">Red</label>
+            <div class="collapsible-body" name="test">
+                <img src="{%static "BYS/images/ironman1.jpg"%}" width="1000" height="600">
+            
+                <form id="1" action="#" method="POST" name="test">
+                    {%csrf_token%}      
+                <input id="choice_1" name="group1" type="radio" value={{key.0.0}}>          
+                <label value="1" for="choice_1">{{key.0.1}} {{key.0.2}} {{key.0.3}} {{key.0.4}} {{key.0.5}} {{key.0.6}} {{key.0.7}}  </label>
                 
-                <input id="choice_2" name="group1" type="radio" />  
-                <label for="choice_2">Yellow</label>
-                    
+                <input id="choice_2" name="group1" type="radio" value={{key.37.0}}>  
+                <label value="2" for="choice_2">{{key.37.1}} {{key.37.2}} {{key.37.3}} {{key.37.4}} {{key.37.5}} {{key.37.6}} {{key.37.7}}</label>
+
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>    
             </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="2">
-              <i class="material-icons">movie</i>Incredible Hulk
+              <i class="material-icons">movie</i>The Incredible Hulk
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+                <img src="{% static "BYS/images/hulk.jpg"%}" alt="dsjkf" width="1000" height="600">
+                <form id="2" action="#" method="POST" >
+                    {%csrf_token%}
+                    
+                    <input id="choice_3" name="group2" type="radio" value={{key.11.0}} />   
+                    <label for="choice_3">{{key.11.1}} {{key.11.2}} {{key.11.3}} {{key.11.4}} {{key.11.5}} {{key.11.6}} {{key.11.7}} </label>
+                    
+                    <input id="choice_4" name="group2" type="radio" value={{key.47.0}} />  
+                    <label for="choice_4">{{key.47.1}} {{key.47.2}} {{key.47.3}} {{key.47.4}} {{key.47.5}} {{key.47.6}} {{key.47.7}} </label>
+                    <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                    </form>
             </div>
           </li>
           <li>
@@ -170,7 +274,16 @@
               <i class="material-icons">movie</i>Iron Man 2
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+              <img src="{% static "BYS/images/ironman2.jpg"%}" alt="dsjkf" width="1000" height="600">
+                <form id="#" action="#" method="POST" >
+                    {%csrf_token%}
+                    <input id="choice_5" name="group3" type="radio" checked value={{key.14.0}}>   
+                    <label for="choice_5">{{key.14.1}} {{key.14.2}} {{key.14.3}} {{key.14.4}} {{key.14.5}} {{key.14.6}} {{key.14.7}}</label>
+                    
+                    <input id="choice_6" name="group3" type="radio" value={{key.29.0}}>  
+                    <label for="choice_6">{{key.29.1}} {{key.29.2}} {{key.29.3}} {{key.29.4}} {{key.29.5}} {{key.29.6}} {{key.29.7}} </label>
+                    <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                    </form>
             </div>
           </li>
           <li>
@@ -178,7 +291,16 @@
               <i class="material-icons">movie</i>Thor
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
+                <img src="{% static "BYS/images/thor.png"%}" alt="dsjkf" width="1000" height="600">
+                <form id="#" action="#" method="POST">
+                    {%csrf_token%}
+                    <input id="choice_7" name="group4" type="radio" checked value={{key.15.0}}>   
+                    <label for="choice_7">{{key.15.1}} {{key.15.2}} {{key.15.3}} {{key.15.4}} {{key.15.5}} {{key.15.6}} {{key.15.7}} </label>
+                    
+                    <input id="choice_8" name="group4" type="radio" value={{key.44.0}}>  
+                    <label for="choice_8">{{key.44.1}} {{key.44.2}} {{key.44.3}} {{key.44.4}} {{key.44.5}} {{key.44.6}} {{key.44.7}} </label>
+                    <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                    </form>            
             </div>
           </li>
           <li>
@@ -186,164 +308,307 @@
               <i class="material-icons">movie</i>Captain America:The First Avenger
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/cap.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST" >
+                  {%csrf_token%}
+                <input id="choice_9" name="group5" type="radio" checked value={{key.16.0}}>   
+                <label for="choice_9">{{key.16.1}} {{key.16.2}} {{key.16.3}} {{key.16.4}} {{key.16.5}} {{key.16.6}} {{key.16.7}} </label>
+                
+                <input id="choice_10" name="group5" type="radio" value={{key.45.0}}>  
+                <label for="choice_10">{{key.45.1}} {{key.45.2}} {{key.45.3}} {{key.45.4}} {{key.45.5}} {{key.45.6}} {{key.45.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="6">
               <i class="material-icons">movie</i>The Avengers
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/avengers.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST" >
+                  {%csrf_token%}
+                <input id="choice_11" name="group6" type="radio" checked value={{key.17.0}}>   
+                <label for="choice_11">{{key.17.1}} {{key.17.2}} {{key.17.3}} {{key.17.4}} {{key.17.5}} {{key.17.6}} {{key.17.7}} </label>
+                
+                <input id="choice_12" name="group6" type="radio" value={{key.37.0}}>  
+                <label for="choice_12">{{key.34.1}} {{key.34.2}} {{key.34.3}} {{key.34.4}} {{key.34.5}} {{key.34.6}} {{key.34.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="7">
               <i class="material-icons">movie</i>Iron Man 3
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/ironman3.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST" >
+                  {%csrf_token%}
+                <input id="choice_13" name="group7" type="radio" checked value={{key.18.0}}>   
+                <label for="choice_13">{{key.18.1}} {{key.18.2}} {{key.18.3}} {{key.18.4}} {{key.18.5}} {{key.18.6}} {{key.18.7}} </label>
+                
+                <input id="choice_14" name="group7" type="radio" value={{key.38.0}}>  
+                <label for="choice_14">{{key.38.1}} {{key.38.2}} {{key.38.3}} {{key.38.4}} {{key.38.5}} {{key.38.6}} {{key.38.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="8">
               <i class="material-icons">movie</i>Thor:The Dark World
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/thor2.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST" >{%csrf_token%}
+                <input id="choice_15" name="group8" type="radio" checked value={{key.19.0}}>   
+                <label for="choice_15">{{key.19.1}} {{key.19.2}} {{key.19.3}} {{key.19.4}} {{key.19.5}} {{key.19.6}} {{key.19.7}} </label>
+                
+                <input id="choice_16" name="group8" type="radio" value={{key.40.0}}>  
+                <label for="choice_16">{{key.40.1}} {{key.40.2}} {{key.40.3}} {{key.40.4}} {{key.40.5}} {{key.40.6}} {{key.40.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="9">
               <i class="material-icons">movie</i>Captain America:The Winter Soldier
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/wintersoldier.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_17" name="group9" type="radio" checked value={{key.20.0}}>   
+                <label for="choice_17">{{key.20.1}} {{key.20.2}} {{key.20.3}} {{key.20.4}} {{key.20.5}} {{key.20.6}} {{key.20.7}} </label>                
+                <input id="choice_18" name="group9" type="radio" value={{key.46.0}}>  
+                <label for="choice_18">{{key.46.1}} {{key.46.2}} {{key.46.3}} {{key.46.4}} {{key.46.5}} {{key.46.6}} {{key.46.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="10">
               <i class="material-icons">movie</i>Guardians Of The Galaxy
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/gotg.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_19" name="group10" type="radio" checked value={{key.21.0}}>   
+                <label for="choice_19">{{key.21.1}} {{key.21.2}} {{key.21.3}} {{key.21.4}} {{key.21.5}} {{key.21.6}} {{key.21.7}} </label>
+                
+                <input id="choice_20" name="group10" type="radio" value={{key.30.0}}>  
+                <label for="choice_20">{{key.30.1}} {{key.30.2}} {{key.30.3}} {{key.30.4}} {{key.30.5}} {{key.30.6}} {{key.30.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="11">
               <i class="material-icons">movie</i>Avengers:Age Of Ultron
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/ultron.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST" >{%csrf_token%}
+                <input id="choice_21" name="group11" type="radio" checked value={{key.22.0}}>   
+                <label for="choice_21">{{key.22.1}} {{key.22.2}} {{key.22.3}} {{key.22.4}} {{key.22.5}} {{key.22.6}} {{key.22.7}} </label>
+                
+                <input id="choice_22" name="group11" type="radio" value={{key.35.0}}>  
+                <label for="choice_22">{{key.35.1}} {{key.35.2}} {{key.35.3}} {{key.35.4}} {{key.35.5}} {{key.35.6}} {{key.35.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="12">
               <i class="material-icons">movie</i>Ant-Man
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/antman.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_23" name="group12" type="radio" checked value={{key.23.0}}>   
+                <label for="choice_23">{{key.23.1}} {{key.23.2}} {{key.23.3}} {{key.23.4}} {{key.23.5}} {{key.23.6}} {{key.23.7}} </label>
+                
+                <input id="choice_24" name="group12" type="radio" value={{key.24.0}}>  
+                <label for="choice_24">{{key.24.1}} {{key.24.2}} {{key.24.3}} {{key.24.4}} {{key.24.5}} {{key.24.6}} {{key.24.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="13">
               <i class="material-icons">movie</i>Captain America:Civil War
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/civilwar.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST" >{%csrf_token%}
+                <input id="choice_25" name="group13" type="radio" checked value={{key.25.0}}>   
+                <label for="choice_25">{{key.25.1}} {{key.25.2}} {{key.25.3}} {{key.25.4}} {{key.25.5}} {{key.25.6}} {{key.25.7}} </label>
+                
+                <input id="choice_26" name="group13" type="radio" value={{key.41.0}}>  
+                <label for="choice_26">{{key.41.1}} {{key.41.2}} {{key.41.3}} {{key.41.4}} {{key.41.5}} {{key.41.6}} {{key.41.7} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="14">
               <i class="material-icons">movie</i>Doctor Strange
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/doctor.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_27" name="group14" type="radio" checked value={{key.1.0}}>   
+                <label for="choice_27">{{key.1.1}} {{key.1.2}} {{key.1.3}} {{key.1.4}} {{key.1.5}} {{key.1.6}} {{key.1.7}} </label>
+                
+                <input id="choice_28" name="group14" type="radio" value={{key.42.0}}>  
+                <label for="choice_28">{{key.42.1}} {{key.42.2}} {{key.42.3}} {{key.42.4}} {{key.42.5}} {{key.42.6}} {{key.42.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="15">
               <i class="material-icons">movie</i>Guardians Of The Galaxy Vol.2
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/gotg2.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_29" name="group15" type="radio" checked value={{key.2.0}}>   
+                <label for="choice_29">{{key.2.1}} {{key.2.2}} {{key.2.3}} {{key.2.4}} {{key.2.5}} {{key.2.6}} {{key.2.7}} </label>
+                
+                <input id="choice_30" name="group15" type="radio" value={{key.26.0}}>  
+                <label for="choice_30">{{key.26.1}} {{key.26.2}} {{key.26.3}} {{key.26.4}} {{key.26.5}} {{key.26.6}} {{key.26.7}}  </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="16">
               <i class="material-icons">movie</i>Spiderman:Homecoming
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/sm.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_31" name="group16" type="radio" checked value={{key.3.0}}>   
+                <label for="choice_31">{{key.3.1}} {{key.3.2}} {{key.3.3}} {{key.3.4}} {{key.3.5}} {{key.3.6}} {{key.3.7}} </label>
+                
+                <input id="choice_32" name="group16" type="radio" value={{key.31.0}}>  
+                <label for="choice_32">{{key.31.1}} {{key.31.2}} {{key.31.3}} {{key.31.4}} {{key.31.5}} {{key.31.6}} {{key.31.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="17">
               <i class="material-icons">movie</i>Thor:Ragnarok
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/thor3.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_33" name="group17" type="radio" checked value={{key.4.0}}>   
+                <label for="choice_33">{{key.4.1}} {{key.4.2}} {{key.4.3}} {{key.4.4}} {{key.4.5}} {{key.4.6}} {{key.4.7}} </label>
+                
+                <input id="choice_34" name="group17" type="radio" value={{key.36.0}}>  
+                <label for="choice_34">{{key.36.1}} {{key.36.2}} {{key.36.3}} {{key.36.4}} {{key.36.5}} {{key.36.6}} {{key.36.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="18">
               <i class="material-icons">movie</i>Black Panther
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/bp.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_35" name="group18" type="radio" checked value={{key.5.0}}>   
+                <label for="choice_35">{{key.5.1}} {{key.5.2}} {{key.5.3}} {{key.5.4}} {{key.5.5}} {{key.5.6}} {{key.5.7}} </label>
+                
+                <input id="choice_36" name="group18" type="radio" value={{key.32.0}}>  
+                <label for="choice_36">{{key.32.1}} {{key.32.2}} {{key.32.3}} {{key.32.4}} {{key.32.5}} {{key.32.6}} {{key.32.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="19">
               <i class="material-icons">movie</i>Avengers:Infinity war
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/inf.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_37" name="group19" type="radio" checked value={{key.6.0}}>   
+                <label for="choice_37">{{key.6.1}} {{key.6.2}} {{key.6.3}} {{key.6.4}} {{key.6.5}} {{key.6.6}} {{key.6.7}}</label>
+                
+                <input id="choice_38" name="group19" type="radio" value={{key.7.0}}>  
+                <label for="choice_38">{{key.7.1}} {{key.7.2}} {{key.7.3}} {{key.7.4}} {{key.7.5}} {{key.7.6}} {{key.7.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="20">
               <i class="material-icons">movie</i>Ant-Man and The Wasp
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/antman2.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_39" name="group20" type="radio" checked value={{key.0.0}}>   
+                <label for="choice_39">{{key.8.1}} {{key.8.2}} {{key.8.3}} {{key.8.4}} {{key.8.5}} {{key.8.6}} {{key.8.7}} </label>
+                
+                <input id="choice_40" name="group20" type="radio" value={{key.0.0}}>  
+                <label for="choice_40">{{key.33.1}} {{key.33.2}} {{key.33.3}} {{key.33.4}} {{key.33.5}} {{key.33.6}} {{key.33.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="21">
               <i class="material-icons">movie</i>Captain Marvel
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/cm.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_41" name="group21" type="radio" checked value={{key.8.0}}>   
+                <label for="choice_41">{{key.9.1}} {{key.9.2}} {{key.9.3}} {{key.9.4}} {{key.9.5}} {{key.9.6}} {{key.9.7}} </label>
+                <input id="choice_42" name="group21" type="radio" value={{key.33.0}}>  
+                <label for="choice_42">{{key.27.1}} {{key.27.2}} {{key.27.3}} {{key.27.4}} {{key.27.5}} {{key.27.6}} {{key.27.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="22">
               <i class="material-icons">movie</i>Avengers:Endgame
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/endgame.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_43" name="group22" type="radio" checked value={{key.10.0}}>   
+                <label for="choice_43">{{key.10.1}} {{key.10.2}} {{key.10.3}} {{key.10.4}} {{key.10.5}} {{key.10.6}} {{key.10.7}} </label>
+                
+                <input id="choice_44" name="group22" type="radio" value={{key.38.0}}>  
+                <label for="choice_44">{{key.28.1}} {{key.28.2}} {{key.28.3}} {{key.28.4}} {{key.28.5}} {{key.28.6}} {{key.28.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="23">
               <i class="material-icons">movie</i>Titanic
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/titanic.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="" method="POST" >{%csrf_token%}
+                <input id="choice_45" name="group23" type="radio" checked value={{key.12.0}}>   
+                <label for="choice_45">{{key.12.1}} {{key.12.2}} {{key.12.3}} {{key.12.4}} {{key.12.5}} {{key.12.6}} {{key.12.7}} </label>
+                
+                <input id="choice_46" name="group23" type="radio" value={{key.43.0}}>  
+                <label for="choice_46">{{key.43.1}} {{key.43.2}} {{key.43.3}} {{key.43.4}} {{key.43.5}} {{key.43.6}} {{key.43.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
           <li>
             <div class="collapsible-header red darken-3 section scrollspy" id="24">
               <i class="material-icons">movie</i>Inception
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam?</span>
-            </div>
+                <img src="{% static "BYS/images/inception.jpg"%}" alt="dsjkf" width="1000" height="600">
+              <form id="#" action="#" method="POST">{%csrf_token%}
+                <input id="choice_47" name="group24" type="radio" checked value={{key.13.0}}>   
+                <label for="choice_47">{{key.13.1}} {{key.13.2}} {{key.13.3}} {{key.13.4}} {{key.13.5}} {{key.13.6}} {{key.13.7}} </label>      
+                <input id="choice_48" name="group24" type="radio" value={{key.39.0}}>  
+                <label for="choice_48">{{key.39.1}} {{key.39.2}} {{key.39.3}} {{key.39.4}} {{key.39.5}} {{key.39.6}} {{key.39.7}} </label>
+                <input type="Submit" name="book" value="book" href="thankyou.html" class="btn waves-effect waves-light red darken-3">
+                </form>            </div>
           </li>
         </ul>
+        
+        
+        
 	<!-- TAP TARGET -->
-        <center><div class="fixed-action-btn " style="bottom:45px;right:24px">
+        <center><div class="fixed-action-btn " style="bottom:45px;right:24px red darken-3">
           <a id="menu" onclick="$('.tap-target').tapTarget('open')" class="waves-effect waves-light btn btn-floating btn-large cyan">
             <i class="material-icons">menu</i>
           </a>
@@ -361,7 +626,6 @@
       </div><!-- ./container -->
 	<footer id="main-footer">
 		<p>Copyright &copy; 2019 BookYourShow</p>
-		
 	</footer>
 
       
@@ -378,7 +642,7 @@
 });
 autoplay();
 function autoplay() {
-    $('.carousel').carousel('next');
+    $('.slider').slider('next');
     setTimeout(autoplay, 2500);
 }
 
@@ -397,18 +661,15 @@ function autoplay() {
           closeOnClick:true
         }
       );
-
-      $('.scrollspy').scrollSpy();
-
-      $('.collapsible').collapsible();
-  
-      //$('.modal').modal({overflow:visible});
-   
-  
+ 
+    
 
           // Fire off toast
           //Materialize.toast('Hello World', 3000);
+        
+          $('.scrollspy').scrollSpy();
 
+          $('.collapsible').collapsible();
           // Init Slider
           $('.slider').slider();
 	
