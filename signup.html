@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+	<title>BookYourShow Signup</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="{%static "BYS/css/materialize.css"%}" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="{%static "BYS/css/styles.css"%}" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="{%static "BYS/css/materialize.min.css"%}" type="text/css" rel="stylesheet" media="screen,projection">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	
+
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>BookYourShow</h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul class="hide">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
+		</div>
+	</nav>
+	
+	<!--<div class="container" style="background-image: url("{%static "BYS/images/bg.jpg"%}");">-->
+		<center>
+			<section id="f1">
+				<h2>Sign Up</h2>
+				<form id="my-form" action="#" method="POST">
+						{%csrf_token%}
+					<div class="form-group">
+						<label>Username:</label>
+						<input type="text" id="username" name="username" placeholder="Enter username">				
+					</div>
+
+					<div class="form-group">
+						<label>Password :</label>
+						<input  paddingtype="text" id="password" type="password" name="password" placeholder="Enter password">				
+					</div>
+					<select name="choice">
+							<option>ggg</option>
+							<option>fff</option>
+					</select>	
+					<input class="btn waves-effect waves-light red darken-3" type="Submit" name="login" value="Submit">	
+					<input type="reset" name="Cancel" value="Cancel" class="btn waves-effect waves-light red darken-3">						
+				</form>
+			</section>
+		</center>
+	</div>
+
+	<footer id="main-footer">
+		<p>Copyright &copy; 2019 BookYourShow</p>
+		
+	</footer>
+
+</body>
+</html>
